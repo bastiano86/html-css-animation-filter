@@ -1,0 +1,75 @@
+.element1 {
+    transition: 1s;
+}
+.element1:hover {
+    background: red;
+}
+
+.element2 {
+  transition: 1s
+}
+
+.element2:active {
+  width: 100%;
+}
+
+.element3 {
+  transition: 1s
+}
+
+.element3:hover {
+  border-radius: 100px;
+}
+
+.element4 {
+  transition: 1s
+}
+
+.element4:hover {
+  opacity: 0.0;
+}
+
+.element5 {
+  transition: 3s;
+  animation-timing-function: linear;
+}
+
+.element5:hover {
+  scale:3;
+}
+
+.element6 {
+  transition: 3s;
+  animation-timing-function: linear;
+}
+
+.element6:hover {
+  scale:3;
+}
+
+.element7 {
+  transition: 1s;
+}
+
+.element7:active {
+  filter: grayscale(.6) sepia(.5);
+}
+
+.element8 {
+  transition: 1s;
+}
+
+.element8:active {
+  filter: grayscale(.6);
+    border-radius: 20px;
+    transform: scale(1.3);
+}
+
+.element9 {
+  transition: 1s;
+}
+
+.element9:active {
+    filter: grayscale(1);
+    border-radius: 20px;
+}
